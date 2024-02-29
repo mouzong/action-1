@@ -1,2 +1,4 @@
-# action-1
-actions-1
+# Exploring GitHub Actions
+
+We will be exploring GitHub Actions,
+- a robust
