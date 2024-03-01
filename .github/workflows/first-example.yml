@@ -15,9 +15,6 @@ jobs:
             echo "My first Github Actions Job"
             ls -ltra
             cat README.md
-        
-        - name: Generate ASCII Artwork
-          run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt
 
         # - name: List files
         #   run: ls
