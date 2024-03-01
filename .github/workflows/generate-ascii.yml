@@ -5,7 +5,7 @@ on:
 
 jobs:
   ascii_job:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
@@ -17,4 +17,10 @@ jobs:
         run: cowsay -f dragon "Run for cover, I am a DRAGON....RAWR" >> dragon.txt 
 
       - name: Test file exists
-        run: cat dragon.txt 
+        run: cat dragon.txt
+      
+      - name: Read file content
+        run: grep -i "dragon"
+
+      - name: List Repo Files
+        run: ls -ltra
