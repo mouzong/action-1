@@ -20,7 +20,7 @@ jobs:
         run: cat dragon.txt
       
       - name: Read file content
-        run: grep -i "dragon"
+        run: grep -i "dragon" dragon.txt
 
       - name: List Repo Files
         run: ls -ltra
